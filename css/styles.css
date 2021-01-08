@@ -1,0 +1,14 @@
+/* * {
+  border: solid 1px #000000;
+} */
+
+body {
+  background-color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.aboutMe img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
