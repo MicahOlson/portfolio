@@ -7,6 +7,27 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h3 {
+  margin-top: 36px;
+}
+
+div.projects ol li {
+  padding-top: 16px;
+}
+
+div>ol {
+  padding-top: 0px;
+}
+
+div.projects ul {
+  padding-left: 15px;
+}
+
+div.projects ul li {
+  list-style-type: none;
+  padding: 0px;
+}
+
 div.aboutMe img {
   float: left;
   margin-right: 10px;
