@@ -20,13 +20,19 @@ h3 {
   border-bottom: solid 1px #d3d3d3;
 }
 
+div.projects ol {
+  list-style-position: inside;
+  margin-block-start: 0em;
+  padding: 0px;
+}
+
 div.projects ol li {
   padding-top: 10px;
 }
 
 div.projects ul {
-  padding-left: 16px;
-  font-size: 85%;
+  padding-left: 36px;
+  font-size: 14px;
 }
 
 div.projects ul li {
@@ -39,17 +45,32 @@ div.projects ul li {
   font-weight: bold;
 }
 
-#project1 {
+#projects-first-line-left, #projects-first-line-right {
   padding-top: 0px;
 }
 
-div.aboutMe img {
+.projects-left, .projects-right {
+  width: 45%;
+  min-width: 80px;
+  margin-right: 40px;
+  float: left;
+}
+
+.projects-right {
+  margin-bottom: 36px;
+}
+
+div.after-float {
+  clear: left;
+}
+
+div.about-me img {
   float: left;
   margin: 10px 10px 10px 0px;
   border: solid 6px #d3d3d3;
 }
 
-div.aboutMe span {
+div.about-me span {
   font-weight: bold;
   font-style: italic;
   color: #3f3f3f;
