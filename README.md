@@ -24,7 +24,7 @@ A living portfolio to present my programming projects as I evolve as a developer
 
   To remove,  
   $ git remote rm origin  
-* Add new remotes pointing to your repositories of choice  
+* Add new remotes pointing to your repositories of choice:  
   $ git remote add \[location-nickname\] \[location\]  
 
 * Open the files in your editor of choice and have fun!
